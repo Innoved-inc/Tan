@@ -1,0 +1,174 @@
+body{font-family: 'Hanalei Fill', cursive;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Hanaleli Fill', cursive;
+    font-size: 20px;
+    background-color:red;
+}
+
+list-style{
+    list-style-type: none;
+}
+
+.half{
+    width: 50%;
+}
+
+.float-right{
+    float: right;
+}
+
+.float-left{
+    float:left;
+}
+
+.center{
+    text-align: center;
+}
+
+header{
+    padding: 10px 5px;
+    height: 30px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+
+#header {
+    background-color: red;
+
+}
+
+#nav{
+    float:right;
+    list-style-type: none;
+    margin: 0;
+}
+#nav>li{
+    display: inline-block;
+    margin: 5px 15px;}
+
+    #nav>li>a{
+    text-decoration:none;
+    color:white;
+}
+ #active {
+     color:blue !important;
+ }  
+
+ #banner{
+     width: 100%;
+     height:400px;
+     background-image:url('./images/banner.jpg');
+     background-size: cover;
+     background-position: top;
+ }
+ 
+ #banner-text{
+     color:white;
+     line-height: 400px;
+     text-align: center;
+     font-size: 3em;
+ }
+
+ #nav>li>a:hover {
+     color:blue
+ }
+   #information{
+       overflow: hidden;
+
+   } 
+  #info-image {
+      width: 50%;
+  }
+  #info-text {
+      width: 50%;
+  }
+  #info-list {
+      font-size: xx-large;
+     
+  }
+   #info-button {
+          background-color: blue;
+          color:white;
+          padding: 15px;
+          border:blue 1px dotted;
+         
+   }
+
+   #info-button:hover{
+    background-color:red;
+    border:white 2px solid;
+   }
+   .third{
+       width: 33%;
+       float: left;
+       text-align: center;
+       max-height: 300px;
+   }
+   .about-images {
+       width: 80%;
+   }
+   #cols {
+       overflow: hidden;
+       margin-bottom: 100px;
+
+   }
+   footer {
+   height: 100px;
+   background-color: blue;
+}
+.bottom {
+    position: absolute;
+    width: 100%;
+    bottom:  0;
+}
+footer>p {
+    color:white;
+    line-height: 100px;
+    padding-top: 25px;
+
+}
+    #about {
+        padding-top: 50px;
+        padding-left:30px;
+        padding-right:50px;
+        overflow: hidden;
+
+
+
+    }
+    #contact {
+        padding-top: 80px;
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    #contact-img {
+        float: left;
+   
+    }
+    #contact-img>h1{
+        padding-bottom: 30px;
+
+    }
+    #contact-img>img {
+        width: 200px;
+
+    }
+    #contact-text { 
+        padding-top: 100px;
+        padding-left: 500px;
+        padding-right:80px;
+    }
+    .button-contact {
+        background-color:blue;
+        padding: 20px;
+        color: white;
+        border-radius: 8px;
+    }
+    .button-contact:hover {
+        padding: 40px;
+    }
